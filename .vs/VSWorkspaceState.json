@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Shinsheki Damage Calc Test"
+    "\\Shinsheki Damage Calc Test",
+    "\\Shinsheki Damage Calc Test\\Shinsheki Damage Calc Test"
   ],
-  "SelectedNode": "\\Shinsheki Damage Calc Test\\Shinsheki Damage Calc Test.sln",
+  "SelectedNode": "\\Shinsheki Damage Calc Test\\Shinsheki Damage Calc Test\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
