@@ -5,12 +5,14 @@
  * Modification:
 */
 
+using Shinsheki_Damage_Calc_Test;
+
 namespace ShinshekiDamageCalcer // Note: actual namespace depends on the project name.
 {
-    
+
     internal class Program
     {
-        
+
         static void Main(string[] args)
         {
             //Welcome to Damage Calcer
@@ -22,6 +24,14 @@ namespace ShinshekiDamageCalcer // Note: actual namespace depends on the project
             Console.WriteLine("To start things off, let's make sure we have all the variables we need. \n I'm going to run through all of them and you give me the answer, okay? \n Press any key to continue.");
             Console.ReadLine();
 
+            string AllInfo = GetAllStats.GetAllStatsMethod();
+
+            // Split the string and convert variables to ints
+
+            bool parse = false;
+            AllInfo.Split(",");
+            double WeaponPower = double.TryParse(AllInfo[0], out WeaponPower);
+            
 
             double SOTBuffs = 1;
             double PlusAnAdditional = 1;
@@ -29,29 +39,7 @@ namespace ShinshekiDamageCalcer // Note: actual namespace depends on the project
             Random VarianceRoll = new Random();
             bool Passives = true;
 
-            Console.WriteLine("Great! Let's get started then. \n What is the weapon power stat?");
-            string WeaponPowerString = Console.ReadLine();
-            double WeaponPower = double.Parse(WeaponPowerString);
-
-            Console.WriteLine("How about the strength stat?");
-            string StrengthStatString = Console.ReadLine();
-            double StrengthStat = double.Parse(StrengthStatString);
             
-            Console.WriteLine("How about the enemy defense stat?");
-            string EnemyDefenseString = Console.ReadLine();
-            double EnemyDefense = double.Parse(EnemyDefenseString);
-
-            Console.WriteLine("How about the enemy armor stat?");
-            string EnemyArmorString = Console.ReadLine();
-            double EnemyArmor = double.Parse(EnemyArmorString);
-
-            Console.WriteLine("How about the skill power stat?");
-            string SkillPowerString = Console.ReadLine();
-            double SkillPower = double.Parse(SkillPowerString);
-
-            Console.WriteLine("How about the magic stat?");
-            string MagicStatString = Console.ReadLine();
-            double MagicStat = double.Parse(MagicStatString);
 
             Console.WriteLine("How many ATK buffs? (0-3)");
 
@@ -125,10 +113,10 @@ namespace ShinshekiDamageCalcer // Note: actual namespace depends on the project
                         Passives = false;
                         break;
                 }
-                
+
             }
             while (Passives == true);
-            
+
             //What formula you want boss
 
             Console.WriteLine("Now that we have all the variables, which formula would you like to use? \n 1) Fight Command \n 2) Physical Skills \n 3) Magic Skills");
@@ -139,8 +127,14 @@ namespace ShinshekiDamageCalcer // Note: actual namespace depends on the project
             //Write all of the methods on the bottom
 
         }
+
         
-    }
+
+
+}
+
+
+}
     
-    }
+    
 
