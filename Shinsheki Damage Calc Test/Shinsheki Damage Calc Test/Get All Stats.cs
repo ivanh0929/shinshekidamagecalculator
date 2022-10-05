@@ -8,7 +8,8 @@ namespace Shinsheki_Damage_Calc_Test
 {
     internal class GetAllStats
     {
-        public static string GetAllStatsMethod()
+        // Get the stats
+        public static string GrabStats()
         {
                 Console.WriteLine("Great! Let's get started then. \n What is the weapon power stat?");
                 string WeaponPowerString = Console.ReadLine();
@@ -24,6 +25,7 @@ namespace Shinsheki_Damage_Calc_Test
                 string MagicStatString = Console.ReadLine();
                 string AllInfo = WeaponPowerString+","+StrengthStatString+ "," + EnemyDefenseString + "," + EnemyArmorString + "," + SkillPowerString + "," + MagicStatString;
             return AllInfo;
+        }
+
     }
-}
 }

@@ -24,13 +24,14 @@ namespace ShinshekiDamageCalcer // Note: actual namespace depends on the project
             Console.WriteLine("To start things off, let's make sure we have all the variables we need. \n I'm going to run through all of them and you give me the answer, okay? \n Press any key to continue.");
             Console.ReadLine();
 
-            string AllInfo = GetAllStats.GetAllStatsMethod();
+            string AllInfo = GetAllStats.GrabStats();
 
             // Split the string and convert variables to ints
 
             bool parse = false;
             AllInfo.Split(",");
-            double WeaponPower = double.TryParse(AllInfo[0], out WeaponPower);
+            double WeaponPower;
+            
             
 
             double SOTBuffs = 1;
