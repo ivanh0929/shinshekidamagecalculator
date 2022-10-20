@@ -17,6 +17,7 @@ namespace ShinshekiDamageCalcer // Note: actual namespace depends on the project
         {
             //Welcome to Damage Calcer
 
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine("Welcome to the first Shinsheki damage calculator! Let's pray this thing actually works.");
 
             //Get all of the variables (Weapon Power, Strength Stat, Enemy Defense, Enemy Armor, Skill Power, Magic Stat)
@@ -30,7 +31,7 @@ namespace ShinshekiDamageCalcer // Note: actual namespace depends on the project
 
             bool parse = false;
             AllInfo.Split(",");
-            double WeaponPower = double.TryParse(AllInfo[0], out WeaponPower);
+            parse = int.TryParse(AllInfo[0], out int WeaponPower);
             
 
             double SOTBuffs = 1;
