@@ -43,7 +43,7 @@ namespace Shinsheki_Damage_Calc_Test
                 }
                 return SOTBuffs;
             
-            }
+        }
         
             // Check for how many enemy DEF buffs
             
@@ -66,7 +66,18 @@ namespace Shinsheki_Damage_Calc_Test
                             break;
                     }
                 return EnemyDefense;
+            }
+
+        public static double Variance(double Variance, Random VarianceRoll)
+        {
+            Console.WriteLine("Press enter to roll for variance.");
+            Console.ReadLine();
+            double rand = VarianceRoll.NextDouble() * (1.05 - .95) + .95;
+            rand = Math.Round(rand, 2);
+            Console.WriteLine("Your random variance is {0}.", rand);
+            return rand;
         }
+
         /*
             // Loop while the user adds as many passives as they want
 
