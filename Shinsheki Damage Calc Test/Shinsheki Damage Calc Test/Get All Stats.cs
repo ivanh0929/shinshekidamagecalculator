@@ -8,23 +8,46 @@ namespace Shinsheki_Damage_Calc_Test
 {
     internal class GetAllStats
     {
-        // Get the stats
-        public static string GrabStats()
+        
+        public static void GrabFightStats(SavedStats savedStats)
         {
-                Console.WriteLine("Great! Let's get started then. \n What is the weapon power stat?");
-                string WeaponPowerString = Console.ReadLine();
-                Console.WriteLine("How about the strength stat?");
-                string StrengthStatString = Console.ReadLine();
+            // Get the necessary stats and assign them to the array in savedStats
+
+                Console.WriteLine("Great! Let's get started then. \n What is the strength stat?");
+                savedStats.StrengthStat = CodeValidation.CVNumber("Please enter a valid integer.");
+                Console.WriteLine("How about the weapon power stat?");
+                savedStats.WeaponPower = CodeValidation.CVNumber("Please enter a valid integer.");
                 Console.WriteLine("How about the enemy defense stat?");
-                string EnemyDefenseString = Console.ReadLine();
+                savedStats.EnemyDefense = CodeValidation.CVNumber("Please enter a valid integer.");
                 Console.WriteLine("How about the enemy armor stat?");
-                string EnemyArmorString = Console.ReadLine();
-                Console.WriteLine("How about the skill power stat?");
-                string SkillPowerString = Console.ReadLine();
-                Console.WriteLine("How about the magic stat?");
-                string MagicStatString = Console.ReadLine();
-                string AllInfo = WeaponPowerString+","+StrengthStatString+ "," + EnemyDefenseString + "," + EnemyArmorString + "," + SkillPowerString + "," + MagicStatString;
-            return AllInfo;
+                savedStats.EnemyArmor = CodeValidation.CVNumber("Please enter a valid integer.");    
+        }
+
+        public static void GrabPhysSkillStats(SavedStats savedStats)
+        {
+            // Get the necessary stats and assign them to the array in savedStats
+
+            Console.WriteLine("Great! Let's get started then. \n What is the strength stat?");
+            savedStats.StrengthStat = CodeValidation.CVNumber("Please enter a valid integer.");
+            Console.WriteLine("How about the skill power stat?");
+            savedStats.SkillPower = CodeValidation.CVNumber("Please enter a valid integer.");
+            Console.WriteLine("How about the enemy defense stat?");
+            savedStats.EnemyDefense = CodeValidation.CVNumber("Please enter a valid integer.");
+            Console.WriteLine("How about the enemy armor stat?");
+            savedStats.EnemyArmor = CodeValidation.CVNumber("Please enter a valid integer.");
+        }
+        public static void GrabElementSkillStats(SavedStats savedStats)
+        {
+            // Get the necessary stats and assign them to the array in savedStats
+
+            Console.WriteLine("Great! Let's get started then. \n What is the magic stat?");
+            savedStats.MagicStat = CodeValidation.CVNumber("Please enter a valid integer.");
+            Console.WriteLine("How about the skill power stat?");
+            savedStats.SkillPower = CodeValidation.CVNumber("Please enter a valid integer.");
+            Console.WriteLine("How about the enemy defense stat?");
+            savedStats.EnemyDefense = CodeValidation.CVNumber("Please enter a valid integer.");
+            Console.WriteLine("How about the enemy armor stat?");
+            savedStats.EnemyArmor = CodeValidation.CVNumber("Please enter a valid integer.");
         }
 
     }

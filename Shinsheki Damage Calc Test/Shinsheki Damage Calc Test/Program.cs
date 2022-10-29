@@ -15,112 +15,43 @@ namespace ShinshekiDamageCalcer // Note: actual namespace depends on the project
 
         static void Main(string[] args)
         {
+            //Initialize
+
+            SavedStats savedStats = new SavedStats();
+            
             //Welcome to Damage Calcer
 
             Console.WriteLine("Welcome to the first Shinsheki damage calculator! Let's pray this thing actually works.");
 
-            //Get all of the variables (Weapon Power, Strength Stat, Enemy Defense, Enemy Armor, Skill Power, Magic Stat)
+            // What formula you want boss
 
-            Console.WriteLine("To start things off, let's make sure we have all the variables we need. \n I'm going to run through all of them and you give me the answer, okay? \n Press any key to continue.");
-            Console.ReadLine();
-
-            string AllInfo = GetAllStats.GrabStats();
-
-            // Split the string and convert variables to ints
-
-            bool parse = false;
-            AllInfo.Split(",");
-            double WeaponPower;
-            
-            
-
-            double SOTBuffs = 1;
-            double PlusAnAdditional = 1;
-            Random CritRoll = new Random();
-            Random VarianceRoll = new Random();
-            bool Passives = true;
-
-            
-
-            Console.WriteLine("How many ATK buffs? (0-3)");
-
-            // Check for how many ATK buffs
-
-            switch (Console.ReadLine().Trim().ToUpper())
-            {
-                case "0":
-                    SOTBuffs = 1;
-                    break;
-                case "1":
-                    SOTBuffs = 1.2;
-                    break;
-                case "2":
-                    SOTBuffs = 1.4;
-                    break;
-                case "3":
-                    SOTBuffs = 1.6;
-                    break;
-            }
-
-            // Check for how many enemy DEF buffs
-
-            Console.WriteLine("How many enemy DEF buffs?");
-            switch (Console.ReadLine().Trim().ToUpper())
-            {
-                case "0":
-                    break;
-                case "1":
-                    EnemyDefense = EnemyDefense * 1.2;
-                    break;
-                case "2":
-                    EnemyDefense = EnemyDefense * 1.4;
-                    break;
-                case "3":
-                    EnemyDefense = EnemyDefense * 1.6;
-                    break;
-            }
-
-            // Loop while the user adds as many passives as they want
-
+            Console.WriteLine("To start things off, let's make sure we have all the variables we need. \n What formula do you want to use? Enter the number that corresponds to your choice. \n1)Fight Command \n2)Physical Skill \n3)Magic Skill");
+            int FormulaChoice = 0;
             do
             {
-                Console.WriteLine("Any passive abilities active? (Y/N)");
-                string KeepAskingForPassives = Console.ReadLine().Trim().ToUpper();
-
-                switch ((KeepAskingForPassives))
-                {
-                    case "Y":
-                        Console.WriteLine("Choose which ability is active. \n 0) None \n 1) Magician's Rally \n 2) Emperor's Onslaught \n 3) Chariot's Safeguard \n 4) Burgeoning Strength");
-                        switch (Console.ReadLine())
-                        {
-                            case "0":
-                                break;
-                            case "1":
-                                MagicStat = MagicStat * 1.1;
-                                break;
-                            case "2":
-                                StrengthStat = StrengthStat * 1.1;
-                                break;
-                            case "3":
-                                PlusAnAdditional = PlusAnAdditional + 0.3;
-                                break;
-                            case "4":
-                                PlusAnAdditional = PlusAnAdditional + 0.3;
-                                SOTBuffs = SOTBuffs + 0.1;
-                                break;
-                        }
-                        break;
-                    case "N":
-                        Passives = false;
-                        break;
-                }
-
+                FormulaChoice = CodeValidation.CVNumber("Please enter a valid integer.");
             }
-            while (Passives == true);
+            while (FormulaChoice == 0);
+
+            // Grab necessary stats based on chosen formula
+
+            switch(FormulaChoice)
+            {
+                case 1:
+                    GetAllStats.GrabFightStats(savedStats);
+                    break;
+                case 2:
+                    GetAllStats.GrabPhysSkillStats(savedStats);
+                    break;
+                case 3:
+                    GetAllStats.GrabElementSkillStats(savedStats);
+                    break;
+            }
+            
+
+            
 
             //What formula you want boss
-
-            Console.WriteLine("Now that we have all the variables, which formula would you like to use? \n 1) Fight Command \n 2) Physical Skills \n 3) Magic Skills");
 
             //Make a method for each Formula (Fight Command, Physical Skill, Magic Skill)
             //Send the needed information to the correct method
