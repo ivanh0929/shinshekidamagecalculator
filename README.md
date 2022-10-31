@@ -15,14 +15,14 @@ Download and run the .exe file.
 Check the Google Drive link for documentation - [INSERT LINK HERE]
 
 ## Roadmap
-v1.0 - basic functionality
-v2.0 - add ULT formulas and all abilities
-vX.0 - implement new changes as they are finalized
+- v1.0 - basic functionality
+- v2.0 - add ULT formulas and all abilities
+- vX.0 - implement new changes as they are finalized
 
 ## Authors and acknowledgment
 
-Main author - Tankiaro
-Acknowledgements - Formulas inspired by Persona 5 and Dragon Ball Z: Dokkan Battle.
+- Main author - Tankiaro
+- Acknowledgements - Formulas inspired by Persona 5 and Dragon Ball Z: Dokkan Battle.
 
 ## Project status
 Currently being worked on. v1.0 should be available in December 2022.
