@@ -34,7 +34,7 @@ namespace Shinsheki_Damage_Calc_Test
 
         public static double Crit(double Calced, Random CritRoll)
         {
-            Console.WriteLine("How should I handle crit chance? \n1) My attack will crit \n2) My attack will NOT crit \n3) Roll for it (10% chance to crit)");
+            Console.WriteLine("How should I handle crit chance? \n1) My attack will crit \n2) My attack will NOT crit \n3) Roll for it (10% chance to crit) \n4)My attack is effective against all types");
 
             // Check for how many ATK buffs and add them to the SOT buffs
 
@@ -53,6 +53,9 @@ namespace Shinsheki_Damage_Calc_Test
                     {
                         Calced = Calced * 1.3;
                     }
+                    break;
+                case 4:
+                    Calced = Calced * 1.1;
                     break;
             }
             return Calced;
