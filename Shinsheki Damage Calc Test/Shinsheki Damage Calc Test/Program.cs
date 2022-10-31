@@ -47,16 +47,10 @@ namespace ShinshekiDamageCalcer // Note: actual namespace depends on the project
                     GetAllStats.GrabElementSkillStats(savedStats);
                     break;
             }
-            
+
 
             
-
-            //What formula you want boss
-
-            //Make a method for each Formula (Fight Command, Physical Skill, Magic Skill)
-            //Send the needed information to the correct method
-            //Give the final damage number
-            //Write all of the methods on the bottom
+            
 
         }
 
