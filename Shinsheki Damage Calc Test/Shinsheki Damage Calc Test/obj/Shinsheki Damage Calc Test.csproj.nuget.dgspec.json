@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Schoolwork\\Documents\\GitHub\\shinsheki-damage-calcer\\Shinsheki Damage Calc Test\\Shinsheki Damage Calc Test\\Shinsheki Damage Calc Test.csproj": {}
+    "\\\\banner.main.ad.rit.edu\\students\\iah7731\\IGMProfile\\Documents\\shinsheki-damage-calcer\\Shinsheki Damage Calc Test\\Shinsheki Damage Calc Test\\Shinsheki Damage Calc Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Schoolwork\\Documents\\GitHub\\shinsheki-damage-calcer\\Shinsheki Damage Calc Test\\Shinsheki Damage Calc Test\\Shinsheki Damage Calc Test.csproj": {
+    "\\\\banner.main.ad.rit.edu\\students\\iah7731\\IGMProfile\\Documents\\shinsheki-damage-calcer\\Shinsheki Damage Calc Test\\Shinsheki Damage Calc Test\\Shinsheki Damage Calc Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Schoolwork\\Documents\\GitHub\\shinsheki-damage-calcer\\Shinsheki Damage Calc Test\\Shinsheki Damage Calc Test\\Shinsheki Damage Calc Test.csproj",
+        "projectUniqueName": "\\\\banner.main.ad.rit.edu\\students\\iah7731\\IGMProfile\\Documents\\shinsheki-damage-calcer\\Shinsheki Damage Calc Test\\Shinsheki Damage Calc Test\\Shinsheki Damage Calc Test.csproj",
         "projectName": "Shinsheki Damage Calc Test",
-        "projectPath": "C:\\Users\\Schoolwork\\Documents\\GitHub\\shinsheki-damage-calcer\\Shinsheki Damage Calc Test\\Shinsheki Damage Calc Test\\Shinsheki Damage Calc Test.csproj",
-        "packagesPath": "C:\\Users\\Schoolwork\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Schoolwork\\Documents\\GitHub\\shinsheki-damage-calcer\\Shinsheki Damage Calc Test\\Shinsheki Damage Calc Test\\obj\\",
+        "projectPath": "\\\\banner.main.ad.rit.edu\\students\\iah7731\\IGMProfile\\Documents\\shinsheki-damage-calcer\\Shinsheki Damage Calc Test\\Shinsheki Damage Calc Test\\Shinsheki Damage Calc Test.csproj",
+        "packagesPath": "D:\\Profiles\\iah7731\\.nuget\\packages\\",
+        "outputPath": "\\\\banner.main.ad.rit.edu\\students\\iah7731\\IGMProfile\\Documents\\shinsheki-damage-calcer\\Shinsheki Damage Calc Test\\Shinsheki Damage Calc Test\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Schoolwork\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "Z:\\IGMProfile\\AppData\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,8 +45,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -60,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

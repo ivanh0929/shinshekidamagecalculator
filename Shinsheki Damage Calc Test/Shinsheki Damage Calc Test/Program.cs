@@ -18,6 +18,7 @@ namespace ShinshekiDamageCalcer // Note: actual namespace depends on the project
             //Initialize
 
             SavedStats savedStats = new SavedStats();
+            Random rand = new Random();
             
             //Welcome to Damage Calcer
 
@@ -48,16 +49,43 @@ namespace ShinshekiDamageCalcer // Note: actual namespace depends on the project
                     break;
             }
 
+            Console.WriteLine("Now, we have to define all of the buffs!");
 
-            
-            
+            SOT_PAA.ATKBuffs(SOT_PAA.SOTbuffs);
+            SOT_PAA.DEFBuffs(savedStats.EnemyDefense);
+            SOT_PAA.Passives(savedStats);
+
+            Console.WriteLine("Lastly, let's calculate the formula! Press any key to continue.");
+            double Calced = 0.0;
+            Console.ReadLine();
+
+            switch (FormulaChoice)
+            {
+                case 1:
+                    Calced = Calculations.FightCommand(savedStats, SOT_PAA.SOTbuffs, SOT_PAA.paa);
+                    break;
+                case 2:
+                    Calced = Calculations.PhysicalSkill(savedStats, SOT_PAA.SOTbuffs, SOT_PAA.paa);
+                    break;
+                case 3:
+                    Calced = Calculations.MagicSkill(savedStats, SOT_PAA.SOTbuffs, SOT_PAA.paa);
+                    break;
+            }
+
+            Calced = Calculations.Crit(Calced, rand);
+            double variance = Calculations.Variance(rand);
+            Calced = Calced * variance;
+            Calced = Calculations.EnemyDR(Calced);
+
+            Console.WriteLine("Without further ado...With all the information you hve given me, your attack should do {0} damage!", Calced);
+
+
+
+
 
         }
 
-        
-
-
-}
+    }
 
 
 }

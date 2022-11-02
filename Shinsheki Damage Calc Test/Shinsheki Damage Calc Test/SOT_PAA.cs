@@ -16,7 +16,7 @@ namespace Shinsheki_Damage_Calc_Test
 
         static double SOTBuffs = 1;
 
-        public double SOTbuffs
+        public static double SOTbuffs
         {
             get { return SOTBuffs; }
             set { if (value >= 100)
@@ -37,7 +37,7 @@ namespace Shinsheki_Damage_Calc_Test
 
         static double PAA = 1;
 
-        public double paa
+        public static double paa
         {
             get { return PAA; }
             set
@@ -56,10 +56,7 @@ namespace Shinsheki_Damage_Calc_Test
                 PAA = value;
 
             }
-        }
-
-        Random VarianceRoll = new Random();
-        
+        }      
 
         public static double ATKBuffs(double SOTBuffs)
             {
@@ -178,7 +175,7 @@ namespace Shinsheki_Damage_Calc_Test
 
         public static double AddEmperorOnslaught(double StrengthStat, double PAA)
         {
-            Console.WriteLine("What tier is Emperor's Onslaught? \n1)Tier 1 \nTier 2 \n3) Tier 3");
+            Console.WriteLine("What tier is Emperor's Onslaught? \n1)Tier 1 \n2)Tier 2 \n3) Tier 3");
             int TierChoice = CodeValidation.CVNumber("Please enter a valid integer.");
             switch (TierChoice)
             {
@@ -198,7 +195,7 @@ namespace Shinsheki_Damage_Calc_Test
 
         public static double AddStrengthChariot(double StrengthStat, double PAA, bool ChariotOrStrength)
         {
-            Console.WriteLine("What tier is the passive? \n1)Tier 1 \nTier 2 \n3) Tier 3");
+            Console.WriteLine("What tier is the passive? \n1)Tier 1 \n2)Tier 2 \n3) Tier 3");
             int TierChoice = CodeValidation.CVNumber("Please enter a valid integer.");
             switch (TierChoice)
             {

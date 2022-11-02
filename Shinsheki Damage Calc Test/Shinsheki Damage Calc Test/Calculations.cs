@@ -13,6 +13,7 @@ namespace Shinsheki_Damage_Calc_Test
             savedStats.StrengthStat = savedStats.StrengthStat * SOTBuffs;
             double Calced = ((Math.Sqrt(savedStats.WeaponPower) * (Math.Sqrt(savedStats.StrengthStat)) / (Math.Sqrt((savedStats.EnemyDefense * 8) + savedStats.EnemyArmor))));
             Calced = Calced * PAA;
+            Console.WriteLine("Calculation was successful!");
             return Calced;
         }
 
@@ -21,6 +22,7 @@ namespace Shinsheki_Damage_Calc_Test
             savedStats.StrengthStat = savedStats.StrengthStat * SOTBuffs;
             double Calced = (savedStats.SkillPower * (Math.Sqrt(savedStats.StrengthStat)) / (Math.Sqrt((savedStats.EnemyDefense * 8) + savedStats.EnemyArmor)));
             Calced = Calced * PAA;
+            Console.WriteLine("Calculation was successful!");
             return Calced;
         }
 
@@ -29,6 +31,7 @@ namespace Shinsheki_Damage_Calc_Test
             savedStats.MagicStat = savedStats.MagicStat * SOTBuffs;
             double Calced = (savedStats.SkillPower + (savedStats.SkillPower*(savedStats.MagicStat/30))) / (Math.Sqrt((savedStats.EnemyDefense * 8) + savedStats.EnemyArmor));
             Calced = Calced * PAA;
+            Console.WriteLine("Calculation was successful!");
             return Calced;
         }
 
@@ -61,7 +64,7 @@ namespace Shinsheki_Damage_Calc_Test
             return Calced;
         }
 
-        public static double Variance(double Variance, Random VarianceRoll)
+        public static double Variance(Random VarianceRoll)
         {
             Console.WriteLine("Press enter to roll for variance.");
             Console.ReadLine();
