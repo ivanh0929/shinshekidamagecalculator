@@ -12,7 +12,7 @@ The calculator also factors in elements such as start of turn buffs, critical hi
 Download and run the .exe file.
 
 ## Usage
-Check the Google Drive link for documentation - [INSERT LINK HERE]
+Check the Google Drive link for documentation - https://docs.google.com/document/d/1CXb9NwP8210PrpWAc245mCbWTARqkfeSYnAvfXd2Stc/edit?usp=sharing
 
 ## Roadmap
 - v1.0 - basic functionality
