@@ -13,6 +13,7 @@ namespace Shinsheki_Damage_Calc_Test
             savedStats.StrengthStat = savedStats.StrengthStat * SOTBuffs;
             double Calced = ((Math.Sqrt(savedStats.WeaponPower) * (Math.Sqrt(savedStats.StrengthStat)) / (Math.Sqrt((savedStats.EnemyDefense * 8) + savedStats.EnemyArmor))));
             Calced = Calced * PAA;
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Calculation was successful!");
             return Calced;
         }
@@ -22,6 +23,7 @@ namespace Shinsheki_Damage_Calc_Test
             savedStats.StrengthStat = savedStats.StrengthStat * SOTBuffs;
             double Calced = (savedStats.SkillPower * (Math.Sqrt(savedStats.StrengthStat)) / (Math.Sqrt((savedStats.EnemyDefense * 8) + savedStats.EnemyArmor)));
             Calced = Calced * PAA;
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Calculation was successful!");
             return Calced;
         }
@@ -31,12 +33,14 @@ namespace Shinsheki_Damage_Calc_Test
             savedStats.MagicStat = savedStats.MagicStat * SOTBuffs;
             double Calced = (savedStats.SkillPower + (savedStats.SkillPower*(savedStats.MagicStat/30))) / (Math.Sqrt((savedStats.EnemyDefense * 8) + savedStats.EnemyArmor));
             Calced = Calced * PAA;
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Calculation was successful!");
             return Calced;
         }
 
         public static double Crit(double Calced, Random CritRoll)
         {
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("How should I handle crit chance? \n1) My attack will crit \n2) My attack will NOT crit \n3) Roll for it (10% chance to crit) \n4)My attack is effective against all types");
 
             // Check for how many ATK buffs and add them to the SOT buffs
@@ -54,7 +58,13 @@ namespace Shinsheki_Damage_Calc_Test
                     CritChance = CritRoll.Next(1, 11);
                     if (CritChance == 1)
                     {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("Your attack was a critical hit!");
                         Calced = Calced * 1.3;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Your attack didn't crit...");
                     }
                     break;
                 case 4:
@@ -66,6 +76,7 @@ namespace Shinsheki_Damage_Calc_Test
 
         public static double Variance(Random VarianceRoll)
         {
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("Press enter to roll for variance.");
             Console.ReadLine();
             double rand = VarianceRoll.NextDouble() * (1.05 - .95) + .95;
@@ -76,10 +87,14 @@ namespace Shinsheki_Damage_Calc_Test
 
         public static double EnemyDR(double Calced)
         {
-            Console.WriteLine("Enter the amount of damage reduction as a whole number (1-99).");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Enter the amount of damage reduction as a whole number (0-99).");
             int DRValue = CodeValidation.CVNumber("Please enter a valid integer.");
-            DRValue = (100 - DRValue) / 10;
-            Calced = Calced * DRValue;
+            if(DRValue >= 1)
+            {
+                DRValue = (100 - DRValue) / 10;
+                Calced = Calced * DRValue;
+            }
             return Calced;
 
 

@@ -1,0 +1,15 @@
+C:\Users\Schoolwork\Documents\GitHub\shinsheki-damage-calcer\Shinsheki Damage Calc Test\Shinsheki Damage Calc Test\bin\Release\net6.0\Shinsheki Damage Calc Test.exe
+C:\Users\Schoolwork\Documents\GitHub\shinsheki-damage-calcer\Shinsheki Damage Calc Test\Shinsheki Damage Calc Test\bin\Release\net6.0\Shinsheki Damage Calc Test.deps.json
+C:\Users\Schoolwork\Documents\GitHub\shinsheki-damage-calcer\Shinsheki Damage Calc Test\Shinsheki Damage Calc Test\bin\Release\net6.0\Shinsheki Damage Calc Test.runtimeconfig.json
+C:\Users\Schoolwork\Documents\GitHub\shinsheki-damage-calcer\Shinsheki Damage Calc Test\Shinsheki Damage Calc Test\bin\Release\net6.0\Shinsheki Damage Calc Test.dll
+C:\Users\Schoolwork\Documents\GitHub\shinsheki-damage-calcer\Shinsheki Damage Calc Test\Shinsheki Damage Calc Test\bin\Release\net6.0\Shinsheki Damage Calc Test.pdb
+C:\Users\Schoolwork\Documents\GitHub\shinsheki-damage-calcer\Shinsheki Damage Calc Test\Shinsheki Damage Calc Test\obj\Release\net6.0\Shinsheki Damage Calc Test.csproj.AssemblyReference.cache
+C:\Users\Schoolwork\Documents\GitHub\shinsheki-damage-calcer\Shinsheki Damage Calc Test\Shinsheki Damage Calc Test\obj\Release\net6.0\Shinsheki Damage Calc Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Schoolwork\Documents\GitHub\shinsheki-damage-calcer\Shinsheki Damage Calc Test\Shinsheki Damage Calc Test\obj\Release\net6.0\Shinsheki Damage Calc Test.AssemblyInfoInputs.cache
+C:\Users\Schoolwork\Documents\GitHub\shinsheki-damage-calcer\Shinsheki Damage Calc Test\Shinsheki Damage Calc Test\obj\Release\net6.0\Shinsheki Damage Calc Test.AssemblyInfo.cs
+C:\Users\Schoolwork\Documents\GitHub\shinsheki-damage-calcer\Shinsheki Damage Calc Test\Shinsheki Damage Calc Test\obj\Release\net6.0\Shinsheki Damage Calc Test.csproj.CoreCompileInputs.cache
+C:\Users\Schoolwork\Documents\GitHub\shinsheki-damage-calcer\Shinsheki Damage Calc Test\Shinsheki Damage Calc Test\obj\Release\net6.0\Shinsheki Damage Calc Test.dll
+C:\Users\Schoolwork\Documents\GitHub\shinsheki-damage-calcer\Shinsheki Damage Calc Test\Shinsheki Damage Calc Test\obj\Release\net6.0\refint\Shinsheki Damage Calc Test.dll
+C:\Users\Schoolwork\Documents\GitHub\shinsheki-damage-calcer\Shinsheki Damage Calc Test\Shinsheki Damage Calc Test\obj\Release\net6.0\Shinsheki Damage Calc Test.pdb
+C:\Users\Schoolwork\Documents\GitHub\shinsheki-damage-calcer\Shinsheki Damage Calc Test\Shinsheki Damage Calc Test\obj\Release\net6.0\Shinsheki Damage Calc Test.genruntimeconfig.cache
+C:\Users\Schoolwork\Documents\GitHub\shinsheki-damage-calcer\Shinsheki Damage Calc Test\Shinsheki Damage Calc Test\obj\Release\net6.0\ref\Shinsheki Damage Calc Test.dll

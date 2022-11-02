@@ -13,6 +13,7 @@ namespace Shinsheki_Damage_Calc_Test
         {
             // Get the necessary stats and assign them to the array in savedStats
 
+                Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine("Great! Let's get started then. \n What is the strength stat?");
                 savedStats.StrengthStat = CodeValidation.CVNumber("Please enter a valid integer.");
                 Console.WriteLine("How about the weapon power stat?");
@@ -20,13 +21,15 @@ namespace Shinsheki_Damage_Calc_Test
                 Console.WriteLine("How about the enemy defense stat?");
                 savedStats.EnemyDefense = CodeValidation.CVNumber("Please enter a valid integer.");
                 Console.WriteLine("How about the enemy armor stat?");
-                savedStats.EnemyArmor = CodeValidation.CVNumber("Please enter a valid integer.");    
+                savedStats.EnemyArmor = CodeValidation.CVNumber("Please enter a valid integer.");
+                Console.Clear();
         }
 
         public static void GrabPhysSkillStats(SavedStats savedStats)
         {
             // Get the necessary stats and assign them to the array in savedStats
 
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Great! Let's get started then. \n What is the strength stat?");
             savedStats.StrengthStat = CodeValidation.CVNumber("Please enter a valid integer.");
             Console.WriteLine("How about the skill power stat?");
@@ -35,11 +38,13 @@ namespace Shinsheki_Damage_Calc_Test
             savedStats.EnemyDefense = CodeValidation.CVNumber("Please enter a valid integer.");
             Console.WriteLine("How about the enemy armor stat?");
             savedStats.EnemyArmor = CodeValidation.CVNumber("Please enter a valid integer.");
+            Console.Clear();
         }
         public static void GrabElementSkillStats(SavedStats savedStats)
         {
             // Get the necessary stats and assign them to the array in savedStats
 
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Great! Let's get started then. \n What is the magic stat?");
             savedStats.MagicStat = CodeValidation.CVNumber("Please enter a valid integer.");
             Console.WriteLine("How about the skill power stat?");
@@ -48,6 +53,7 @@ namespace Shinsheki_Damage_Calc_Test
             savedStats.EnemyDefense = CodeValidation.CVNumber("Please enter a valid integer.");
             Console.WriteLine("How about the enemy armor stat?");
             savedStats.EnemyArmor = CodeValidation.CVNumber("Please enter a valid integer.");
+            Console.Clear();
         }
 
     }

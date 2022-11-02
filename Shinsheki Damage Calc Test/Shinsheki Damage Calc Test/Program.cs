@@ -19,20 +19,25 @@ namespace ShinshekiDamageCalcer // Note: actual namespace depends on the project
 
             SavedStats savedStats = new SavedStats();
             Random rand = new Random();
-            
+
             //Welcome to Damage Calcer
 
+            Console.ForegroundColor = ConsoleColor.Gray;
             Console.WriteLine("Welcome to the first Shinsheki damage calculator! Let's pray this thing actually works.");
 
             // What formula you want boss
 
-            Console.WriteLine("To start things off, let's make sure we have all the variables we need. \n What formula do you want to use? Enter the number that corresponds to your choice. \n1)Fight Command \n2)Physical Skill \n3)Magic Skill");
-            int FormulaChoice = 0;
+            Console.WriteLine("To start things off, let's make sure we have all the variables we need. \nWhat formula do you want to use? Enter the number that corresponds to your choice. \n1)Fight Command \n2)Physical Skill \n3)Magic Skill");
+            int FormulaChoice = 4;
             do
             {
                 FormulaChoice = CodeValidation.CVNumber("Please enter a valid integer.");
+                if (FormulaChoice >=4)
+                {
+                    Console.WriteLine("Please enter a valid choice.");
+                }
             }
-            while (FormulaChoice == 0);
+            while (FormulaChoice >= 4);
 
             // Grab necessary stats based on chosen formula
 
@@ -76,8 +81,14 @@ namespace ShinshekiDamageCalcer // Note: actual namespace depends on the project
             double variance = Calculations.Variance(rand);
             Calced = Calced * variance;
             Calced = Calculations.EnemyDR(Calced);
+            Calced = Math.Round(Calced);
 
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Without further ado...With all the information you hve given me, your attack should do {0} damage!", Calced);
+            Console.WriteLine("Press enter to exit.");
+            Console.ReadLine();
+            System.Environment.Exit(0);
+
 
 
 

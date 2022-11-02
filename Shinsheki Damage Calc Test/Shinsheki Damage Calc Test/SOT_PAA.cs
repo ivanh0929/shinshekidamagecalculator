@@ -60,23 +60,33 @@ namespace Shinsheki_Damage_Calc_Test
 
         public static double ATKBuffs(double SOTBuffs)
             {
-                Console.WriteLine("How many ATK buffs? (1-4) \n (1 being no buffs and 4 being 3 buffs)");
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine("How many ATK buffs? (0-3)");
 
                 // Check for how many ATK buffs and add them to the SOT buffs
 
-                int ATKBuffChoice = CodeValidation.CVNumber("Please enter a valid integer.");
-                switch (ATKBuffChoice)
+                int ATKBuffChoice = 4;
+                do
                 {
-                    case 1:
+                    ATKBuffChoice = CodeValidation.CVNumber("Please enter a valid integer.");
+                    if (ATKBuffChoice >= 4)
+                    {
+                        Console.WriteLine("Please enter a valid choice.");
+                    }
+                }
+                while (ATKBuffChoice >= 4);
+            switch (ATKBuffChoice)
+                {
+                    case 0:
                         SOTBuffs = 1;
                         break;
-                    case 2:
+                    case 1:
                         SOTBuffs = 1.2;
                         break;
-                    case 3:
+                    case 2:
                         SOTBuffs = 1.4;
                         break;
-                    case 4:
+                    case 3:
                         SOTBuffs = 1.6;
                         break;
                 }
@@ -84,27 +94,38 @@ namespace Shinsheki_Damage_Calc_Test
             
         }
         
-            // Check for how many enemy DEF buffs
+        // Check for how many enemy DEF buffs
             
         public static double DEFBuffs(double EnemyDefense)
         {
-                Console.WriteLine("How many enemy DEF buffs? (1-4) \n (1 being no buffs and 4 being 3 buffs)");
-                int DEFBuffChoice = CodeValidation.CVNumber("Please enter a valid integer.");
-                switch (DEFBuffChoice)
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine("How many enemy DEF buffs? (0-3)");
+            int DEFBuffChoice=4;
+            do
+            {
+                DEFBuffChoice = CodeValidation.CVNumber("Please enter a valid integer.");
+                if (DEFBuffChoice >= 4)
+                {
+                    Console.WriteLine("Please enter a valid choice.");
+                }
+            }
+            while (DEFBuffChoice >= 4);
+            switch (DEFBuffChoice)
                     {
-                        case 1:
+                        case 0:
                             break;
-                        case 2:
+                        case 1:
                             EnemyDefense = EnemyDefense * 1.2;
                             break;
-                        case 3:
+                        case 2:
                             EnemyDefense = EnemyDefense * 1.4;
                             break;
-                        case 4:
+                        case 3:
                             EnemyDefense = EnemyDefense * 1.6;
                             break;
                 }
-          return EnemyDefense;
+            Console.Clear();
+            return EnemyDefense;
         }
 
         public static void Passives(SavedStats savedStats)
@@ -115,7 +136,8 @@ namespace Shinsheki_Damage_Calc_Test
 
             do
             {
-                Console.WriteLine("Any passive abilities active? (Y/N)");
+                Console.ForegroundColor = ConsoleColor.Magenta;
+                Console.WriteLine("Add some passive abilities? (Y/N)");
                
                 string KeepAskingForPassives = Console.ReadLine().Trim().ToUpper();
 
@@ -148,11 +170,13 @@ namespace Shinsheki_Damage_Calc_Test
 
             }
             while (WantPassives == true);
+            Console.Clear();
         }
 
         public static double AddMagicianRally(double MagicStat, double PAA)
         {
-            Console.WriteLine("What tier is Magician's Rally? \n1)Tier 1 \nTier 2 \n3) Tier 3 \n4) Tier 3 + fire skill");
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.WriteLine("What tier is Magician's Rally? \n1) Tier 1 \n2) Tier 2 \n3) Tier 3 \n4) Tier 3 + fire skill");
             int TierChoice = CodeValidation.CVNumber("Please enter a valid integer.");
             switch (TierChoice)
             {
@@ -175,7 +199,8 @@ namespace Shinsheki_Damage_Calc_Test
 
         public static double AddEmperorOnslaught(double StrengthStat, double PAA)
         {
-            Console.WriteLine("What tier is Emperor's Onslaught? \n1)Tier 1 \n2)Tier 2 \n3) Tier 3");
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.WriteLine("What tier is Emperor's Onslaught? \n1) Tier 1 \n2) Tier 2 \n3) Tier 3");
             int TierChoice = CodeValidation.CVNumber("Please enter a valid integer.");
             switch (TierChoice)
             {
@@ -195,7 +220,8 @@ namespace Shinsheki_Damage_Calc_Test
 
         public static double AddStrengthChariot(double StrengthStat, double PAA, bool ChariotOrStrength)
         {
-            Console.WriteLine("What tier is the passive? \n1)Tier 1 \n2)Tier 2 \n3) Tier 3");
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.WriteLine("What tier is the passive? \n1) Tier 1 \n2) Tier 2 \n3) Tier 3");
             int TierChoice = CodeValidation.CVNumber("Please enter a valid integer.");
             switch (TierChoice)
             {

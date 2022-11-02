@@ -43,7 +43,7 @@ namespace Shinsheki_Damage_Calc_Test
                     Console.WriteLine(error);
                 }
             }
-            while (realnum <= 0 || parse == false);
+            while (realnum <= -1 || parse == false);
             return realnum;
         }
 
