@@ -26,4 +26,4 @@ Check the Google Drive link for documentation - https://docs.google.com/document
 - Acknowledgements - Formulas inspired by Persona 5 and Dragon Ball Z: Dokkan Battle.
 
 ## Project status
-Currently being worked on. v1.0 should be available in December 2022.
+Currently being worked on. v1.0 should be available in December 2022. v2.0 should be available around March 2023.
