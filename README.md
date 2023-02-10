@@ -16,7 +16,8 @@ Check the Google Drive link for documentation - https://docs.google.com/document
 
 ## Roadmap
 - v1.0 - basic functionality
-- v2.0 - add ULT formulas and all abilities
+- v2.0 - add file I/O
+- v2.1 - add ULT formulas and all abilities
 - vX.0 - implement new changes as they are finalized
 
 ## Authors and acknowledgment
