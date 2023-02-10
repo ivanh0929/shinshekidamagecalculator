@@ -74,6 +74,42 @@ namespace Shinsheki_Damage_Calc_Test
             return Calced;
         }
 
+        public static double Crit(double Calced, Random CritRoll, int crit)
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("How should I handle crit chance? \n1) My attack will crit \n2) My attack will NOT crit \n3) Roll for it (Uses crit chance) \n4)My attack is effective against all types");
+
+            // Check for how many ATK buffs and add them to the SOT buffs
+
+            int CritChoice = CodeValidation.CVNumber("Please enter a valid integer.");
+            switch (CritChoice)
+            {
+                case 1:
+                    Calced = Calced * 1.3;
+                    break;
+                case 2:
+                    break;
+                case 3:
+                    int CritChance = 0;
+                    CritChance = CritRoll.Next(1, 101);
+                    if (CritChance <= crit)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("Your attack was a critical hit!");
+                        Calced = Calced * 1.3;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Your attack didn't crit...");
+                    }
+                    break;
+                case 4:
+                    Calced = Calced * 1.1;
+                    break;
+            }
+            return Calced;
+        }
+
         public static double Variance(Random VarianceRoll)
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
@@ -95,6 +131,18 @@ namespace Shinsheki_Damage_Calc_Test
                 DRValue = (100 - DRValue) / 10;
                 Calced = Calced * DRValue;
             }
+            return Calced;
+        }
+
+        public static double EnemyDR(double Calced, int DR)
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            if (DR >= 1)
+            {
+                DR = (100 - DR) / 10;
+                Calced = Calced * DR;
+            }
+            Console.WriteLine("DR calculations complete!");
             return Calced;
 
 

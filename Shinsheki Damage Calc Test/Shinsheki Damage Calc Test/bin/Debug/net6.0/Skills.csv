@@ -1,0 +1,299 @@
+Lunge,Light Physical damage to 1 foe.,60,90,20,5,Phys
+Cleave,Light Physical damage to 1 foe.,65,90,20,6,Phys
+Bash,Light Physical damage to 1 foe.,55,90,10,4,Phys
+Giant Slash,Medium Physical damage to 1 foe.,90,90,30,9,Phys
+Frontal Assault,Heavy Physical damage to 1 foe.,120,90,20,13,Phys
+Humongous Slash,Severe Physical damage to 1 foe.,300,90,25,16,Phys
+Fierce Lunge,Colossal Physical damage to 1 foe.,360,90,40,21,Phys
+Primal Force,Colossal Physical damage to 1 foe.,600,90,35,24,Phys
+God's Hand,Colossal Physical damage to 1 foe.,800,90,15,25,Phys
+Double Fangs,Medium Physical damage to 1 foe 2x.,40,90,5,10,Phys
+Ayamur,Medium Physical damage to 1 foe 3x.,100,95,10,25,Phys
+Myriad Slashes,Medium Physical damage to 1 foe 2x to 3x,90,85,5,20,Phys
+Tempest Slash,Minuscule Physical damage to 1 foe 3x to 5x.,20,85,5,17,Phys
+Posion Needle,Light Physical damage and medium chance to inflict Poison to 1 foe.,70,90,5,8,Phys
+Terror Claw,Medium Physical damage and medium chance to inflict Fear to 1 foe.,70,90,5,8,Phys
+Headbutt,Medium Physical damage and medium chance to Stun 1 foe.,80,90,5,9,Phys
+Hysterical Slap,Medium Physical damage and medium chance to Enrage to 1 foe.,80,90,5,9,Phys
+Brain Shake,Medium Physical damage and medium chance to inflict Hunger on 1 foe.,80,90,5,9,Phys
+Sledgehammer,Medium Physical damage and medium chance to Seal 1 foe.,100,90,5,10,Phys
+Skull Cracker,Medium Physical damage and medium chance to Confuse 1 foe.,100,90,5,10,Phys
+Negative Pile,Heavy Physical damage and medium chance inflict Lethargy to 1 foe.,120,90,3,12,Phys
+Rising Slash,Heavy Physical damage to 1 foe. More powerful after Share the Love.,140,90,5,14,Phys
+Deadly Fury,Severe Physical damage to 1 foe. More powerful after Share the Love.,220,90,5,18,Phys
+Cornered Fang,Medium Physical damage to 1 foe. More powerful when being ambushed.,100,85,35,10,Phys
+Lucky Punch,Minuscule Physical damage to 1 foe. High critical rate.,25,75,50,6,Phys
+Miracle Punch,Medium Physical damage to 1 foe. High chance to perform a critical hit.,80,75,55,8,Phys
+Focus Slash,Heavy Physical damage to 1 foe 2x. High accuracy.,160,99,20,20,Phys
+Beast Weaver,Colossal Physical damage to 1 foe. User's attack power is halved (independent from -onda/-onka effects.) for 3 turns.,1200,90,22,20,Phys
+Varja Blast,Medium Physical damage to all foes.,80,80,5,14,Phys
+Vicious Strike,Medium Physical damage to all foes.,110,80,5,18,Phys
+Heat Wave,Heavy Physical damage to all foes.,150,80,5,20,Phys
+Vorpal Blade,Severe Physical damage to all foes.,210,80,10,23,Phys
+Gigantomachia,Colossal Physical damage to all foes.,350,85,5,25,Phys
+Deathbound,Medium Physical damage to all foes 1x to 2x.,95,80,5,22,Phys
+Rampage,Light Physical damage to all foes 1x to 3x.,30,70,10,13,Phys
+Agneyastra,Medium Physical damage to all foes 1x to 3x.,110,80,5,24,Phys
+Swift Strike,Light Physical damage to all foes 3x to 4x.,30,70,10,17,Phys
+Hassou Tobi,Light Physical damage to all foes 8x. Unique to Yoshitsune.,40,75,5,25,Phys
+Memory Blow,Medium Physical damage and low chance to Stun all foes.,70,80,5,15,Phys
+Venen Rush,Medium Physical damage and small chance to Poison all foes.,80,80,5,16,Phys
+Oni-Kagura,Medium Physical damage and small chance to Enrage all foes.,80,80,5,16,Phys
+Mind Slice,Medium Physical damage and small chance to Confuse all foes.,110,80,5,19,Phys
+Flash Bomb,Medium Physical damage and small chance to Seal to all foes.,100,80,5,19,Phys
+Bad Beat,Medium Physical damage and small chance to inflict Lethargy on all foes.,110,80,5,21,Phys
+Bloodbath,Heavy Physical damage and chance to small chance to inflict Fear to all foes.,120,80,5,19,Phys
+Brain Buster,Heavy Physical damage and small chance to Stun all foes.,120,80,5,21,Phys
+Rude Buster,Heavy Physical damage and small chance to Enrage all foes.,125,80,5,21,Phys
+Pyra,Light Fire damage to 1 foe.,40,99,10,4,Fire
+Pylao,Medium Fire damage to 1 foe.,100,99,10,8,Fire
+Pytaura,Heavy Fire damage to 1 foe.,160,99,10,12,Fire
+Mapyra,Light Fire damage to all foes.,40,95,10,10,Fire
+Mapylao,Medium Fire damage to all foes.,100,95,10,16,Fire
+Mapytaura,Heavy Fire damage to all foes.,160,95,10,22,Fire
+Solar Flare,Severe Fire damage to 1 foe.,200,98,10,48,Fire
+Hellscape,Severe Fire damage to all foes.,180,95,10,54,Fire
+Precise Pyra,Light Fire damage to 1 foe. Medium chance to crit.,45,99,30,6,Fire
+Precise Pylao,Medium Fire damage to 1 foe. Medium chance to crit.,110,99,30,12,Fire
+Precise Pytaura,Heavy Fire damage to 1 foe. Medium chance to crit.,170,99,30,16,Fire
+Precise Mapyra,Light Fire damage to all foes. Medium chance to crit.,50,95,30,12,Fire
+Precise Mapylao,Medium Fire damage to all foes. Medium chance to crit.,110,95,30,20,Fire
+Precise Mapytaura,Heavy Fire damage to all foes. Medium chance to crit.,170,95,30,25,Fire
+Supreme Pyra,"Light Fire damage to 1 foe. Stronger - but less accurate.",60,90,10,6,Fire
+Supreme Pylao,"Medium Fire damage to 1 foe. Stronger - but less accurate.",130,90,10,12,Fire
+Supreme Pytaura,"Heavy Fire damage to 1 foe. Stronger - but less accurate.",190,90,10,16,Fire
+Supreme Mapyra,"Light Fire damage to all foes. Stronger - but less accurate.",60,85,10,12,Fire
+Supreme Mapylao,"Medium Fire damage to all foes. Stronger - but less accurate.",130,85,10,20,Fire
+Supreme Mapytaura,"Heavy Fire damage to all foes. Stronger - but less accurate.",190,85,10,25,Fire
+Burning Pyra,Light Fire damage to 1 foe. Medium chance to Burn.,45,90,10,6,Fire
+Burning Pylao,Medium Fire damage to 1 foe. Medium chance to Burn.,110,90,10,12,Fire
+Burning Pytaura,Heavy Fire damage to 1 foe. Medium chance to Burn.,170,90,10,16,Fire
+Burning Mapyra,Light Fire damage to all foes. Medium chance to Burn.,50,85,10,12,Fire
+Burning Mapylao,Medium Fire damage to all foes. Medium chance to Burn.,110,85,10,20,Fire
+Burning Mapytaura,Heavy Fire damage to all foes. Medium chance to Burn.,170,85,10,25,Fire
+Repyra,Light Fire damage to 1 foe to 1x to 2x.,40,80,10,8,Fire
+Repylao,Medium Fire damage to 1 foe 2x to 3x.,100,80,10,12,Fire
+Repytaura,Heavy Fire damage to 1 foe 2x to 4x.,160,85,10,16,Fire
+Raging Inferno,Heavy Fire damage to all foes 3x with a high chance to Burn. Unique to Susano-o.,180,90,10,48,Fire
+Fula,Light Electric damage to 1 foe.,40,99,10,4,Elec
+Fultum,Medium Electric damage to 1 foe.,100,99,10,8,Elec
+Fultaura,Heavy Electric damage to 1 foe.,160,99,10,12,Elec
+Thunder Cannon,Severe Electric damage to 1 foe.,200,98,10,48,Elec
+Mafula,Light Electric damage to all foes.,40,95,10,10,Elec
+Mafultum,Medium Electric damage to all foes.,100,95,10,16,Elec
+Mafultaura,Heavy Electric damage to all foes.,160,95,10,22,Elec
+Thunder Catastrophe,Severe Electric damage to all foes.,180,95,10,54,Elec
+Precise Fula,Light Electric damage to 1 foe. Medium chance to crit.,45,99,30,6,Elec
+Precise Fultum,Medium Electric damage to 1 foe. Medium chance to crit.,110,99,30,12,Elec
+Precise Fultaura,Heavy Electric damage to 1 foe. Medium chance to crit.,170,99,30,16,Elec
+Precise Mafula,Light Electric damage to all foes. Medium chance to crit.,50,95,30,12,Elec
+Precise Mafultum,Medium Electric damage to all foes. Medium chance to crit.,110,95,30,20,Elec
+Precise Mafultaura,Heavy Electric damage to all foes. Medium chance to crit.,170,95,30,25,Elec
+Supreme Fula,"Light Electric damage to 1 foe. Stronger - but less accurate.",60,90,10,6,Elec
+Supreme Fultum,"Medium Electric damage to 1 foe. Stronger - but less accurate.",130,90,10,12,Elec
+Supreme Fultaura,"Heavy Electric damage to 1 foe. Stronger - but less accurate.",190,90,10,16,Elec
+Supreme Mafula,"Light Electric damage to all foes. Stronger - but less accurate.",60,85,10,12,Elec
+Supreme Mafultum,"Medium Electric damage to all foes. Stronger - but less accurate.",130,85,10,20,Elec
+Supreme Mafultaura,"Heavy Electric damage to all foes. Stronger - but less accurate.",190,85,10,25,Elec
+Shocking Fula,Light Electric damage to 1 foe. Medium chance to Shock.,45,99,10,6,Elec
+Shocking Fultum,Medium Electric damage to 1 foe. Medium chance to Shock.,110,99,10,12,Elec
+Shocking Fultaura,Heavy Electric damage to 1 foe. Medium chance to Shock.,170,99,10,16,Elec
+Shocking Mafula,Light Electric damage to all foes. Medium chance to Shock.,50,95,10,12,Elec
+Shocking Mafultum,Medium Electric damage to all foes. Medium chance to Shock.,110,95,10,20,Elec
+Shocking Mafultaura,Heavy Electric damage to all foes. Medium chance to Shock.,170,95,10,25,Elec
+Refula,Light Electric damage to 1 foe to 1x to 2x.,40,80,10,8,Elec
+Refultum,Medium Electric damage to 1 foe 2x to 3x.,100,80,10,12,Elec
+Refultaura,Heavy Electric damage to 1 foe 2x to 4x.,160,85,10,16,Elec
+Glaia,Light Ice damage to 1 foe.,40,99,10,4,Ice
+Glaion,Medium Ice damage to 1 foe.,100,99,10,8,Ice
+Glaitaura,Heavy Ice damage to 1 foe.,160,99,10,12,Ice
+Maglaia,Light Ice damage to all foes.,40,95,10,10,Ice
+Maglaion,Medium Ice damage to all foes.,100,95,10,16,Ice
+Maglaitaura,Heavy Ice damage to all foes.,160,95,10,22,Ice
+Frigid Edge,Severe Ice damage to 1 foe.,200,98,10,48,Ice
+Hyperborean Blizzard,Severe Ice damage to all foes.,180,95,10,54,Ice
+Precise Glaia,Light Ice damage to 1 foe. Medium chance to crit.,45,99,30,6,Ice
+Precise Glaion,Medium Ice damage to 1 foe. Medium chance to crit.,110,99,30,12,Ice
+Precise Glaitaura,Heavy Ice damage to 1 foe. Medium chance to crit.,170,99,30,16,Ice
+Precise Maglaia,Light Ice damage to all foes. Medium chance to crit.,50,95,30,12,Ice
+Precise Maglaion,Medium Ice damage to all foes. Medium chance to crit.,110,95,30,20,Ice
+Precise Maglaitaura,Heavy Ice damage to all foes. Medium chance to crit.,170,95,30,25,Ice
+Supreme Glaia,"Light Ice damage to 1 foe. Stronger - but less accurate.",60,90,10,6,Ice
+Supreme Glaion,"Medium Ice damage to 1 foe. Stronger - but less accurate.",130,90,10,12,Ice
+Supreme Glaitaura,"Heavy Ice damage to 1 foe. Stronger - but less accurate.",190,90,10,16,Ice
+Supreme Maglaia,"Light Ice damage to all foes. Stronger - but less accurate.",60,85,10,12,Ice
+Supreme Maglaion,"Medium Ice damage to all foes. Stronger - but less accurate.",130,85,10,20,Ice
+Supreme Maglaitaura,"Heavy Ice damage to all foes. Stronger - but less accurate.",190,85,10,25,Ice
+Freezing Glaia,Light Ice damage to 1 foe. Medium chance to Freeze.,45,90,10,6,Ice
+Freezing Glaion,Medium Ice damage to 1 foe. Medium chance to Freeze.,110,90,10,12,Ice
+Freezing Glaitaura,Heavy Ice damage to 1 foe. Medium chance to Freeze.,170,90,10,16,Ice
+Freezing Maglaia,Light Ice damage to all foes. Medium chance to Freeze.,50,85,10,12,Ice
+Freezing Maglaion,Medium Ice damage to all foes. Medium chance to Freeze.,110,85,10,20,Ice
+Freezing Maglaitaura,Heavy Ice damage to all foes. Medium chance to Freeze.,170,85,10,25,Ice
+Reglaia,Light Ice damage to 1 foe to 1x to 2x.,40,80,10,8,Ice
+Reglaion,Medium Ice damage to 1 foe 2x to 3x.,100,80,10,12,Ice
+Reglaitaura,Heavy Ice damage to 1 foe 2x to 4x.,160,85,10,16,Ice
+Avalanche,Heavy Ice damage to all foes 3x with a high chance to Freeze. Unique to Artemesia.,180,90,10,48,Ice
+Aura,Light Wind damage to 1 foe.,40,99,10,3,Wind
+Auratus,Medium Wind damage to 1 foe.,100,99,10,6,Wind
+Aurtaura,Heavy Wind damage to 1 foe.,160,99,10,10,Wind
+Vorpal Gust,Severe Wind damage to 1 foe,200,98,10,42,Wind
+Maura,Light Wind damage to all foes.,40,95,10,8,Wind
+Mauratus,Medium Wind damage to all foes.,100,95,10,14,Wind
+Maurtaura,Heavy Wind damage to all foes.,160,95,10,20,Wind
+Ethereal Blades,Severe Wind damage to all foes.,200,95,10,48,Wind
+Precise Aura,Light Wind damage to 1 foe. Medium chance to crit.,45,99,30,6,Wind
+Precise Auratus,Medium Wind damage to 1 foe. Medium chance to crit.,110,99,30,12,Wind
+Precise Aurtaura,Heavy Wind damage to 1 foe. Medium chance to crit.,170,99,30,16,Wind
+Precise Maura,Light Wind damage to all foes. Medium chance to crit.,50,95,30,12,Wind
+Precise Maurtus,Medium Wind damage to all foes. Medium chance to crit.,110,95,30,20,Wind
+Precise Maurtaura,Heavy Wind damage to all foes. Medium chance to crit.,170,95,30,25,Wind
+Supreme Aura,"Light Wind damage to 1 foe. Stronger - but less accurate.",60,90,10,6,Wind
+Supreme Aurtum,"Medium Wind damage to 1 foe. Stronger - but less accurate.",130,90,10,12,Wind
+Supreme Aurtaura,"Heavy Wind damage to 1 foe. Stronger - but less accurate.",190,90,10,16,Wind
+Supreme Maura,"Light Wind damage to all foes. Stronger - but less accurate.",60,85,10,12,Wind
+Supreme Maurtus,"Medium Wind damage to all foes. Stronger - but less accurate.",130,85,10,20,Wind
+Supreme Maurtaura,"Heavy Wind damage to all foes. Stronger - but less accurate.",190,85,10,25,Wind
+Windy Aura,Light Wind damage to 1 foe. Medium chance to inflict Lethargy.,45,99,30,6,Wind
+Windy Auratus,Medium Wind damage to 1 foe. Medium chance to inflict Lethargy.,110,99,30,12,Wind
+Windy Aurtaura,Heavy Wind damage to 1 foe. Medium chance to inflict Lethargy.,170,99,30,16,Wind
+Windy Maura,Light Wind damage to all foes. Medium chance to inflict Lethargy.,50,95,30,12,Wind
+Windy Maurtus,Medium Wind damage to all foes. Medium chance to inflict Lethargy.,110,95,30,20,Wind
+Windy Maurtaura,Heavy Wind damage to all foes. Medium chance to inflict Lethargy.,170,95,30,25,Wind
+Reaura,Light Wind damage to 1 foe to 1x to 2x.,40,80,10,8,Wind
+Reauratus,Medium Wind damage to 1 foe 2x to 3x.,100,80,10,12,Wind
+Reaurtaura,Heavy Wind damage to 1 foe 2x to 4x.,160,85,10,16,Wind
+Nuc,Light Nuclear damage to 1 foe.,40,99,10,4,Nuc
+Nucnell,Medium Nuclear damage to 1 foe.,100,99,10,8,Nuc
+Nuctaura,Heavy Nuclear damage to 1 foe.,160,99,10,12,Nuc
+Atomic Fissure,Severe Nuclear damage to 1 foe.,200,98,10,48,Nuc
+Manuc,Light Nuclear damage to all foes.,40,95,10,10,Nuc
+Manucnell,Medium Nuclear damage to all foes.,100,95,10,16,Nuc
+Manuctaura,Heavy Nuclear damage to all foes.,160,95,10,22,Nuc
+Atomic Warhead,Severe Nuclear damage to all foes.,180,95,10,54,Nuc
+Precise Nuc,Light Nuclear damage to 1 foe. Medium chance to crit.,45,99,30,6,Nuc
+Precise Nucnell,Medium Nuclear damage to 1 foe. Medium chance to crit.,110,99,30,12,Nuc
+Precise Nuctaura,Heavy Nuclear damage to 1 foe. Medium chance to crit.,170,99,30,16,Nuc
+Precise Manuc,Light Nuclear damage to all foes. Medium chance to crit.,50,95,30,12,Nuc
+Precise Manucnell,Medium Nuclear damage to all foes. Medium chance to crit.,110,95,30,20,Nuc
+Precise Manuctaura,Heavy Nuclear damage to all foes. Medium chance to crit.,170,95,30,25,Nuc
+Supreme Nuc,"Light Nuclear damage to 1 foe. Stronger - but less accurate.",60,90,10,6,Nuc
+Supreme Nucnell,"Medium Nuclear damage to 1 foe. Stronger - but less accurate.",130,90,10,12,Nuc
+Supreme Nuctaura,"Heavy Nuclear damage to 1 foe. Stronger - but less accurate.",190,90,10,16,Nuc
+Supreme Manuc,"Light Nuclear damage to all foes. Stronger - but less accurate.",60,85,10,12,Nuc
+Supreme Manucnell,"Medium Nuclear damage to all foes. Stronger - but less accurate.",130,85,10,20,Nuc
+Supreme Manuctaura,"Heavy Nuclear damage to all foes. Stronger - but less accurate.",190,85,10,25,Nuc
+Radiating Nuc,Light Nuclear damage to 1 foe. Medium chance to Stun.,45,99,30,6,Nuc
+Radiating Nucnell,Medium Nuclear damage to 1 foe. Medium chance to Stun.,110,99,30,12,Nuc
+Radiating Nuctaura,Heavy Nuclear damage to 1 foe. Medium chance to Stun.,170,99,30,16,Nuc
+Radiating Manuc,Light Nuclear damage to all foes. Medium chance to Stun.,50,95,30,12,Nuc
+Radiating Manucnell,Medium Nuclear damage to all foes. Medium chance to Stun.,110,95,30,20,Nuc
+Radiating Manuctaura,Heavy Nuclear damage to all foes. Medium chance to Stun.,170,95,30,25,Nuc
+Renuc,Light Nuclear damage to 1 foe to 1x to 2x.,40,80,10,8,Nuc
+Renucnell,Medium Nuclear damage to 1 foe 2x to 3x.,100,80,10,12,Nuc
+Renuctaura,Heavy Nuclear damage to 1 foe 2x to 4x.,160,85,10,16,Nuc
+Ania,Light Psy damage to 1 foe.,40,99,10,4,Psy
+Anium,Medium Psy damage to 1 foe.,100,99,10,8,Psy
+Anitaura,Heavy Psy damage to 1 foe.,160,99,10,12,Psy
+Psychic Geyser,Severe Psy damage to 1 foe.,200,98,10,48,Psy
+Mania,Light Psy damage to all foes.,40,95,10,10,Psy
+Manium,Medium Psy damage to all foes.,100,95,10,16,Psy
+Manitaura,Heavy Psy damage to all foes.,160,95,10,22,Psy
+Psychic Cessation,Severe Psy damage to all foes.,180,95,10,54,Psy
+Precise Ania,Light Psy damage to 1 foe. Medium chance to crit.,45,99,30,6,Psy
+Precise Anium,Medium Psy damage to 1 foe. Medium chance to crit.,110,99,30,12,Psy
+Precise Anitaura,Heavy Psy damage to 1 foe. Medium chance to crit.,170,99,30,16,Psy
+Precise Mania,Light Psy damage to all foes. Medium chance to crit.,50,95,30,12,Psy
+Precise Manium,Medium Psy damage to all foes. Medium chance to crit.,110,95,30,20,Psy
+Precise Manitaura,Heavy Psy damage to all foes. Medium chance to crit.,170,95,30,25,Psy
+Supreme Ania,"Light Psy damage to 1 foe. Stronger - but less accurate.",60,90,10,6,Psy
+Supreme Anium,"Medium Psy damage to 1 foe. Stronger - but less accurate.",130,90,10,12,Psy
+Supreme Anitaura,"Heavy Psy damage to 1 foe. Stronger - but less accurate.",190,90,10,16,Psy
+Supreme Mania,"Light Psy damage to all foes. Stronger - but less accurate.",60,85,10,12,Psy
+Supreme Manium,"Medium Psy damage to all foes. Stronger - but less accurate.",130,85,10,20,Psy
+Supreme Manitaura,"Heavy Psy damage to all foes. Stronger - but less accurate.",190,85,10,25,Psy
+Splitting Ania,Light Psy damage to 1 foe. Medium chance to inflict Confusion.,45,99,30,6,Psy
+Splitting Anium,Medium Psy damage to 1 foe. Medium chance to inflict Confusion.,110,99,30,12,Psy
+Splitting Anitaura,Heavy Psy damage to 1 foe. Medium chance to inflict Confusion.,170,99,30,16,Psy
+Splitting Mania,Light Psy damage to all foes. Medium chance to inflict Confusion.,50,95,30,12,Psy
+Splitting Manium,Medium Psy damage to all foes. Medium chance to inflict Confusion.,110,95,30,20,Psy
+Splitting Manitaura,Heavy Psy damage to all foes. Medium chance to inflict Confusion.,170,95,30,25,Psy
+Reania,Light Psy damage to 1 foe to 1x to 2x.,40,80,10,8,Psy
+Reanium,Medium Psy damage to 1 foe 2x to 3x.,100,80,10,12,Psy
+Reanitaura,Heavy Psy damage to 1 foe 2x to 4x.,160,85,10,16,Psy
+Forta,Light Bless damage to 1 foe.,50,99,10,4,Bls
+Fortung,Medium Bless damage to 1 foe.,120,99,10,8,Bls
+Fortaura,Heavy Bless damage to 1 foe.,190,99,10,12,Bls
+Maforta,Light Bless damage to all foes.,50,95,10,10,Bls
+Mafortung,Medium Bless damage to all foes.,120,95,10,16,Bls
+Mafortaura,Heavy Bless damage to all foes.,190,95,10,22,Bls
+Bene,Small chance of instantly killing 1 foe.,9999,10,100,8,Bls
+Benedic,Medium chance of instantly killing 1 foe.,9999,30,100,15,Bls
+Benedicite,High chance of instantly killing 1 foe.,9999,50,100,20,Bls
+Mabene,Small chance of instantly killing all foes.,9999,10,100,18,Bls
+Mabenedic,Medium chance of instantly killing all foes.,9999,30,100,34,Bls
+Mabenedicite,High chance of instantly killing all foes.,9999,50,100,44,Bls
+Shining Arrows,Light Bless damage to all foes 4x to 8x. Unique to Kaguya.,15,90,10,22,Bls
+Precise Forta,Light Bless damage to 1 foe. Medium chance to crit.,55,99,30,6,Bls
+Precise Fortung,Medium Bless damage to 1 foe. Medium chance to crit.,130,99,30,12,Bls
+Precise Fortaura,Heavy Bless damage to 1 foe. Medium chance to crit.,200,99,30,16,Bls
+Precise Maforta,Light Bless damage to all foes. Medium chance to crit.,55,95,30,12,Bls
+Precise Mafortung,Medium Bless damage to all foes. Medium chance to crit.,130,95,30,20,Bls
+Precise Mafortaura,Heavy Bless damage to all foes. Medium chance to crit.,200,95,30,25,Bls
+Supreme Forta,"Light Bless damage to 1 foe. Stronger - but less accurate.",70,90,10,6,Bls
+Supreme Fortung,"Medium Bless damage to 1 foe. Stronger - but less accurate.",140,90,10,12,Bls
+Supreme Fortaura,"Heavy Bless damage to 1 foe. Stronger - but less accurate.",210,90,10,16,Bls
+Supreme Maforta,"Light Bless damage to all foes. Stronger - but less accurate.",70,85,10,12,Bls
+Supreme Mafortung,"Medium Bless damage to all foes. Stronger - but less accurate.",140,85,10,20,Bls
+Supreme Mafortaura,"Heavy Bless damage to all foes. Stronger - but less accurate.",210,85,10,25,Bls
+Brimming Forta,Light Bless damage to 1 foe. Medium chance to Seal.,55,99,30,6,Bls
+Brimming Fortung,Medium Bless damage to 1 foe. Medium chance to Seal.,130,99,30,12,Bls
+Brimming Fortaura,Heavy Bless damage to 1 foe. Medium chance to Seal.,200,99,30,16,Bls
+Brimming Maforta,Light Bless damage to all foes. Medium chance to Seal.,55,95,30,12,Bls
+Brimming Mafortung,Medium Bless damage to all foes. Medium chance to Seal.,130,95,30,20,Bls
+Brimming Mafortaura,Heavy Bless damage to all foes. Medium chance to Seal.,200,95,30,25,Bls
+Reforta,Light Bless damage to 1 foe to 1x to 2x.,40,80,10,8,Bls
+Refortung,Medium Bless damage to 1 foe 2x to 3x.,100,80,10,12,Bls
+Refortaura,Heavy Bless damage to 1 foe 2x to 4x.,160,85,10,16,Bls
+Moon Beam,Heavy Bless damage to all foes with a great chance to Stun. Unique to Raoul.,175,95,10,30,Bls
+Morning Star,Light Bless damage to all foes 7x. Unique to ???.,70,90,10,77,Bls
+Mela,Light Curse damage to 1 foe.,50,99,10,4,Cur
+Melton,Medium Curse damage to 1 foe.,120,99,10,8,Cur
+Meltaura,Heavy Curse damage to 1 foe.,190,99,10,12,Cur
+Mamela,Light Curse damage to all foes.,50,95,10,10,Cur
+Mamelton,Medium Curse damage to all foes.,120,95,10,16,Cur
+Mameltaura,Heavy Curse damage to all foes.,190,95,10,22,Cur
+Moc,Small chance of instantly killing 1 foe.,9999,10,100,8,Cur
+Mocit,Medium chance of instantly killing 1 foe.,9999,30,100,15,Cur
+Mociton,High chance of instantly killing 1 foe.,9999,50,100,20,Cur
+Mamoc,Small chance of instantly killing all foes.,9999,10,100,18,Cur
+Mamocit,Medium chance of instantly killing all foes.,9999,30,100,34,Cur
+Mamociton,High chance of instantly killing all foes.,9999,50,100,44,Cur
+Abyssal Wings,Severe Curse damage to all foes. Unique,210,90,10,30,Cur
+Precise Mela,Light Curse damage to 1 foe. Medium chance to crit.,55,99,30,6,Cur
+Precise Melton,Medium Curse damage to 1 foe. Medium chance to crit.,130,99,30,12,Cur
+Precise Meltaura,Heavy Curse damage to 1 foe. Medium chance to crit.,200,99,30,16,Cur
+Precise Mamela,Light Curse damage to all foes. Medium chance to crit.,55,95,30,12,Cur
+Precise Mamelton,Medium Curse damage to all foes. Medium chance to crit.,130,95,30,20,Cur
+Precise Mameltaura,Heavy Curse damage to all foes. Medium chance to crit.,200,95,30,25,Cur
+Supreme Mela,"Light Curse damage to 1 foe. Stronger - but less accurate.",70,90,10,6,Cur
+Supreme Melton,"Medium Curse damage to 1 foe. Stronger - but less accurate.",140,90,10,12,Cur
+Supreme Meltaura,"Heavy Curse damage to 1 foe. Stronger - but less accurate.",210,90,10,16,Cur
+Supreme Mamela,"Light Curse damage to all foes. Stronger - but less accurate.",70,85,10,12,Cur
+Supreme Mamelton,"Medium Curse damage to all foes. Stronger - but less accurate.",140,85,10,20,Cur
+Supreme Mameltaura,"Heavy Curse damage to all foes. Stronger - but less accurate.",210,85,10,25,Cur
+Dark Mela,Light Curse damage to 1 foe. Medium chance to inflict Fear.,55,99,30,6,Cur
+Dark Melton,Medium Curse damage to 1 foe. Medium chance to inflict Fear.,130,99,30,12,Cur
+Dark Meltaura,Heavy Curse damage to 1 foe. Medium chance to inflict Fear.,200,99,30,16,Cur
+Dark Mamela,Light Curse damage to all foes. Medium chance to inflict Fear.,55,95,30,12,Cur
+Dark Mamelton,Medium Curse damage to all foes. Medium chance to inflict Fear.,130,95,30,20,Cur
+Dark Mameltaura,Heavy Curse damage to all foes. Medium chance to inflict Fear.,200,95,30,25,Cur
+Remela,Light Curse damage to 1 foe to 1x to 2x.,40,80,10,8,Cur
+Remelton,Medium Curse damage to 1 foe 2x to 3x.,100,80,10,12,Cur
+Remeltaura,Heavy Curse damage to 1 foe 2x to 4x.,160,85,10,16,Cur
+Sinful Dilay,Light Curse damage to all foes 7x. Unique to Satanael.,70,90,10,77,Cur
+Death's Door,Heavy Curse damage to all foes with high chance of instant kill. Unique to Thanatos.,200,90,10,32,Cur
+Omnia,Medium Almighty damage to all foes.,120,95,10,15,Alm
+Omnion,Heavy Almighty damage to all foes.,180,95,10,24,Alm
+Omnitaura,Severe Almighty damage to all foes.,210,95,10,38,Alm
+Black Viper,Severe Almighty damage to 1 foe.,230,98,10,48,Alm

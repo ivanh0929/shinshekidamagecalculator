@@ -9,6 +9,19 @@ using Shinsheki_Damage_Calc_Test;
 
 namespace ShinshekiDamageCalcer // Note: actual namespace depends on the project name.
 {
+    enum ElementType
+    {
+        Phys,
+        Ice,
+        Fire,
+        Elec,
+        Wind,
+        Psy,
+        Nuc,
+        Bls,
+        Cur,
+        Alm
+    }
 
     internal class Program
     {
@@ -23,6 +36,13 @@ namespace ShinshekiDamageCalcer // Note: actual namespace depends on the project
             //Welcome to Damage Calcer
 
             Console.ForegroundColor = ConsoleColor.Gray;
+            Skill.Initialize();
+
+            foreach(Skill skill in Skill.SkillList)
+            {
+                Console.WriteLine(skill.ToString());
+                Console.WriteLine();
+            }
             Console.WriteLine("Welcome to the first Shinsheki damage calculator! Let's pray this thing actually works.");
 
             // What formula you want boss

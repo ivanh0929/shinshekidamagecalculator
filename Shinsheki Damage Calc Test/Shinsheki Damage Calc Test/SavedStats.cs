@@ -20,7 +20,6 @@ namespace Shinsheki_Damage_Calc_Test
          */
         double[] CalculationStats = new double[] { 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 };
 
-
         public double MagicStat
         {
             get { return CalculationStats[0]; }
