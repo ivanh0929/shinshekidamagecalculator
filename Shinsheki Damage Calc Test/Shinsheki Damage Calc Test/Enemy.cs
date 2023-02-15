@@ -8,6 +8,11 @@ namespace Shinsheki_Damage_Calc_Test
 {
     internal class Enemy : BattleParticipant
     {
-        int DR;
+        int dr;
+
+        public int DR
+        {
+            get { return dr; }
+        }
     }
 }

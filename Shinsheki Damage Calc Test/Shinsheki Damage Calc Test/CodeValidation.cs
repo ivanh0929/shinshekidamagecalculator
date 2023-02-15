@@ -70,6 +70,22 @@ namespace Shinsheki_Damage_Calc_Test
             while (String.IsNullOrEmpty(Answer) || Answer.Substring(0) != "Y" & Answer.Substring(0) != "N");
             return Answer;
         }
+        
+        // Read values into a list
+
+        public static List<string> ReadIn(string path)
+        {
+            List<string> list = new List<string>();
+            StreamReader sr = new StreamReader(path);
+            List<string> Values = new List<string>();
+            string line = "";
+            while ((line = sr.ReadLine()) != null)
+            {
+                Values.Add(line);
+            }
+            sr.Close();
+            return Values;
+        }
 
 
 
