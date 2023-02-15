@@ -16,7 +16,8 @@ Check the Google Drive link for documentation - https://docs.google.com/document
 
 ## Roadmap
 - v1.0 - basic functionality
-- v2.0 - add ULT formulas and all abilities
+- v2.0 - add file I/O, add more accurate battle simulation (player and enemy stats)
+- v2.1 - add ULT formulas and all abilities
 - vX.0 - implement new changes as they are finalized
 
 ## Authors and acknowledgment
@@ -25,4 +26,4 @@ Check the Google Drive link for documentation - https://docs.google.com/document
 - Acknowledgements - Formulas inspired by Persona 5 and Dragon Ball Z: Dokkan Battle.
 
 ## Project status
-Currently being worked on. v1.0 should be available in December 2022.
+Currently being worked on. v1.0 should be available in December 2022. v2.0 should be available around March 2023.
